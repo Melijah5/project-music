@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Habsha_Player.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Habsha_Player"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="81*"/>
+            <RowDefinition Height="311*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  Text="Welcome Habsha Player " FontSize="50" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="603"/>
+        <Button x:Name="button" Content="Get Start" FontSize="25" Foreground="White" Background="DarkBlue" FontWeight="ExtraBold" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" Margin="0,300,0,0" Width="555" Click="button_Click"/>
+
+
+    </Grid>
+</Page>
